@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Image Carousel</title>
-  </head>
-  <body>
-    <script src="script.js"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Image Carousel</title>
+	</head>
+	<body>
+		<div class="carousel">
+			<div class="image-container" id="imgs">
+				<img
+					src="https://images.unsplash.com/photo-1573057454928-f6eda06245ed?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80"
+					alt="Image-1"
+				/>
+				<img
+					src="https://images.unsplash.com/photo-1602490100268-9d0902f297d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1513&q=80"
+					alt="Image-2"
+				/>
+				<img
+					src="https://images.unsplash.com/photo-1557277770-baf0ca74f908?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80"
+					alt="Image-3"
+				/>
+				<img
+					src="https://images.unsplash.com/photo-1564889956728-9f3e4ad65498?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80"
+					alt="Image-4"
+				/>
+			</div>
+			<div class="buttons-container">
+				<button id="left" class="btn">Prev</button>
+				<button id="right" class="btn">Next</button>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
 </html>
