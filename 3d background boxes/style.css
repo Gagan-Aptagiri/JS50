@@ -37,7 +37,7 @@ body {
   outline: none;
 }
 
-.magin:active{
+.magic:active{
   box-shadow: none;
   transform: translateY(2px);
 }
@@ -55,6 +55,7 @@ body {
 .boxes.big {
   width: 600px;
   height: 600px;
+  transform: translateY(10%);
 }
 
 .boxes.big .box{
